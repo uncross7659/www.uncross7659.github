@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+    padding: 0;
+  }
+  
+  /* 导航链接 */
+  .topnav a {
+    float: left;
+    display: block;
+    color:red;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* 链接 - 修改颜色 */
+  .topnav a:hover {
+    background-color:deepskyblue;
+    color: black;
+  }
+  
+  /* 创建三个相等的列 */
+.row{
+  width: 75%;
+  height: 450px;
+  margin: auto;
+  background-color: #ddd;
+  margin-top: 0%;
+  
+}
+.row .sidel{
+width: 200px;
+height: 100%;
+float: left;
+background-color: aquamarine;
+}
+
+.row .middle{
+    background-color: darkgrey;
+}
